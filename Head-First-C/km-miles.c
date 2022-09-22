@@ -15,5 +15,16 @@ int main(){
 
     //compute distance in miles
     miles = km * conversionRatio;
-    printf("Distance in miles: %lf", miles);
+    printf("Distance in miles: %lf \n", miles);
+
+    // Converting Celsius to F
+    double celsius;
+    double fahrenheit;
+
+    // taking celsius input from user
+    printf("Enter temp in Celsius: ");
+    scanf("%lf", &celsius);
+
+    fahrenheit = (celsius * 1.8) + 32;
+    printf("Temp in F is: %.2lf", fahrenheit);
 }
