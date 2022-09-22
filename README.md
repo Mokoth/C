@@ -1,10 +1,9 @@
-# Compiling C Code with `gcc`
----
+# Fundamental concepts - C
 
-gcc is an application used to compile C programs into an executable that
-can run on the target computer.
-gcc stands for GNU Compiler Collection.
-
-gcc compiles C code using the code file as an unflagged command-line argument. 
-The output executable file will be called a.out. 
-The -o flag followed by some text can be used to designate the name of the output executable file.
+* **Data Types** - `int`, `double` and `char`.
+* **Variables** - A variable is used to store data so that we can use them later in the program.
+* **Output -** The `printf()` function is used to display output on the screen. We use format specifiers with `printf()` to print variables: (`%d` for `int`, `%lf` for `double`, and `%c` for `char`).
+* **Comments -** Comments are used to add hints and explanations in our program. In C, a comment starts with `//`.
+* **Operators -** Arithmetic operators are used to perform arithmetic operations such as addition `+`, subtraction `-`, division (quotient `/`, remainder `%`), etc.
+* **Type Conversion -** It's possible to convert the data of one type to another. Conversion can happen both automatically (implicit) and manually (explicit).
+* **Take Input -** The `scanf()` function is used to take input from the user. The function takes input and stores it in the variable.
