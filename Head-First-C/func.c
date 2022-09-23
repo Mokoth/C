@@ -13,9 +13,9 @@ void square(int num){
 
 
 // function to print string of characters
-void fortune_cookie(char msg[]){
-    printf("Message reads: %s \n", msg);
-    printf("Message occupies %i bytes \n", sizeof(msg));
+void fortune_cookie(char msg[]){  // msg is just a pointer
+    printf("Message reads: %s \n", msg); // msg points to the message
+    printf("Message occupies %i bytes \n", sizeof(msg)); // size of msg
 }
 
 int main(){
