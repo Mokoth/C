@@ -1,7 +1,7 @@
 #include <stdio.h>
-
+#include <stdbool.h>
 int main(){
-    // program to convert F to C
+/*    // program to convert F to C
     // FORMULA => C = (5/9)(F-32)
     // 0 -17
     // 20 -6
@@ -34,4 +34,35 @@ int main(){
             }
         }
     }
+
 }
+*/
+//Running sum
+/*
+    int sum, num;
+    sum = 0;
+    while(true){
+        printf("Enter a number: \n");
+        scanf("%d", &num);
+        if(num < 0){
+            break;
+        }
+        sum = sum + num;
+        printf("%d\n", sum);
+    }
+    printf("%d", sum);
+*/
+
+    int num, rem, sum=0;
+    printf("Enter any number: ");
+    scanf("%d", &num);
+    while(num>0)
+    {
+        rem = num%10;
+        sum = sum + rem*rem;
+        num = num/10;
+    }
+    printf("\nSum of Square of Digits = %d", sum);
+    return 0;
+}
+
