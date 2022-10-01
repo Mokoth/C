@@ -18,7 +18,13 @@ void find_track(char search_for[]){
     }
 }
 
+void introduction(){
+    printf("Hi! \n");
+    printf("How are you doing? \n");
+    printf("Bye for now");
+}
 int main(){
+<<<<<<< HEAD
     char search_for[80];
     printf("Search for: ");
     scanf(search_for, 80, stdin);
@@ -27,6 +33,11 @@ int main(){
 
 
 /*
+=======
+    introduction();
+
+
+>>>>>>> fd7aca239c9dd09807016f341f8c85355c47de98
     char my_string [] = "Hello, Mom, I hope you're doing well!";
     //printf("%s", my_string);
     //Access and Modify string
