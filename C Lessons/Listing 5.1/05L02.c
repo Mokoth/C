@@ -6,7 +6,7 @@ main(){
 
   printf("Please type in two characters together:\n");
   ch1 = getc( stdin );
-  ch2 = getchar( );
+  ch2 = getchar( ); /* getchar => getc( stdin )*/
   printf("The first character you just entered is: %c\n", ch1);
   printf("The second character you just entered is: %c\n", ch2);
   return 0;
