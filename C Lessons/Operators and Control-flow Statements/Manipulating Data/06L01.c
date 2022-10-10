@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* 06L01.c: Using arithmetic assignment operators */
+=======
+/* 06L01.c: Using arithmetic assignment operators ~~ updates branch */
+>>>>>>> origin/updates
 #include <stdio.h>
 
 main(){
@@ -28,6 +32,12 @@ main(){
 
   z = 3;  /* reset z */
   z *= x + y;
+<<<<<<< HEAD
   printf("z *= x + y assigns %d to z;\n", z);
   return 0;
 }
+=======
+  printf("z *= x + y assigns %d to z.\n", z);
+  return 0;
+}
+>>>>>>> origin/updates
